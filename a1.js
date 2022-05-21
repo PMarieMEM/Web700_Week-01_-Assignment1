@@ -42,6 +42,17 @@ console.log(serverResponse[3])
 console.log(serverResponse[4])
 console.log(serverResponse[5])
 
-// The web server simulator function
-
+// The web server simulator function, 
+function httpRequest(httpVerb,path){ 
+    var httpVerb = serverVerbs();
+    var path = serverPaths();
+    if (httpVerb in serverVerbs(), path in serverPaths()){ //condition 1, parameters can be found in array
+        console.log(serverVerbs)
+        console.log(serverPaths)
+        console.log("200 : OK!")}
+    elif (httpVerb != serverVerbs.indexOf(), path != serverPaths.indexOf())
+    {//condition 2, if there is a mismatch, print an error prompt
+        console.log("404: Unable to process httpVerb request for path")
+    } //Hi Professor, I am a bit lost with how to implement the conditions with the parameter index match checking
+}
 

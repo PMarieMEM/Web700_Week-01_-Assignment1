@@ -53,6 +53,6 @@ function httpRequest(httpVerb,path){
     elif (httpVerb != serverVerbs.indexOf(), path != serverPaths.indexOf())
     {//condition 2, if there is a mismatch, print an error prompt
         console.log("404: Unable to process httpVerb request for path")
-    } //Hi Professor, I am a bit lost with how to implement the conditions with the parameter index match checking
+} //Hi Professor, I am a bit lost with how to implement the conditions with the parameter index match checking
 }
 
